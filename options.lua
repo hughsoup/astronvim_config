@@ -7,6 +7,23 @@ return {
     spell = false, -- sets vim.opt.spell
     signcolumn = "auto", -- sets vim.opt.signcolumn to auto
     wrap = false, -- sets vim.opt.wrap
+    -- My settings
+    guicursor = "",
+    -- undo related stuff
+    swapfile = false,
+    backup = false,
+    undodir = os.getenv("HOME") .. "/.vim/undodir",
+    undofile = true,
+    -- other stuff
+    smartindent = true,
+    tabstop = 4,
+    softtabstop = 4,
+    shiftwidth = 4,
+    expandtab = true,
+    scrolloff = 8,
+    updatetime = 50,
+    colorcolumn = "80",
+    clipboard = "",
   },
   g = {
     mapleader = " ", -- sets vim.g.mapleader

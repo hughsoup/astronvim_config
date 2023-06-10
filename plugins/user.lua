@@ -9,4 +9,21 @@ return {
   --     require("lsp_signature").setup()
   --   end,
   -- },
+  {
+    'mbbill/undotree',
+    event = "User AstroFile"
+  },
+  {
+    'navarasu/onedark.nvim',
+    config = function()
+      require("onedark").setup({
+        style = "deep",
+        tildes = true,
+      })
+    end,
+  },
+  "neanias/everforest-nvim",
+  "NLKNguyen/papercolor-theme",
+  "Rigellute/rigel",
+  "bluz71/vim-nightfly-colors",
 }
